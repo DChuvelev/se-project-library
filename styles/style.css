@@ -461,7 +461,7 @@
   justify-content: space-between;
 }
 
-.footer__column-link_hover:hover {
+.footer__column-link:hover {
   color: #c1c1c1;
 }
 
