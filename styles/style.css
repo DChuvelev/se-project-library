@@ -187,6 +187,7 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  margin: 0;
 }
 
 .person_name_feynman {
@@ -238,7 +239,7 @@
 
 .staff {
   padding: 100px 0 140px;
-  background-image: url("/images/staff_picks_background.jpg");
+  background-image: url("../images/staff_picks_background.jpg");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -416,14 +417,8 @@
   margin-bottom: 108px;
 }
 
-.footer__column {
-}
-
 .footer__column_content_hours {
   margin: 0 100px 0 auto;
-}
-
-.footer__column_content_social {
 }
 
 .footer__logo {
@@ -442,7 +437,7 @@
   margin-bottom: 16px;
 }
 
-.footer__list-item_last {
+.footer__list-item:last-child {
   margin-bottom: 0;
 }
 
